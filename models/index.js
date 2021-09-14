@@ -6,8 +6,8 @@ User.hasMany(Post, {
   onDelete: 'CASCADE'
 });
 
-Project.belongsTo(User, {
+Post.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
-module.exports = { User, Project };
+module.exports = { User, Post };
