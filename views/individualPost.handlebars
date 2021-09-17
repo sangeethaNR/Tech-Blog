@@ -1,4 +1,7 @@
+
+
 {{> post-partials post}}
+{{> comment-partials post.comments}}
 <div class="row">
 <div class="">
   <h3> Comment</h3>
@@ -7,7 +10,7 @@
 </div>
 
 </div>
-{{> comment-partials post.comments}}
+
 
 {{#if logged_in}}
 <script src='/js/comment-add.js'></script>
