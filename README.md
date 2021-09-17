@@ -56,7 +56,10 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 4. To run the application type node server.js. This will start localhost server.
 
-5. Link to the deployed application https://github.com/sangeethaNR/Tech-Blog.git
+5. github Link to the deployed application https://github.com/sangeethaNR/Tech-Blog.git
+6. View application live in https://secure-scrubland-44183.herokuapp.com/
+
+
 
 
  ## Questions
