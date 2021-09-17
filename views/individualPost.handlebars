@@ -1,1 +1,15 @@
-{{> post-partials}}
+{{> post-partials post}}
+<div class="row">
+<div class="">
+  <h3> Comment</h3>
+  <textarea id="comments"  rows="6" cols="60"></textarea>
+  <button  id="comments-btn">submit</button>
+</div>
+
+</div>
+{{> comment-partials post.comments}}
+
+{{#if logged_in}}
+<script src='/js/comment-add.js'></script>
+</script>
+{{/if}}
